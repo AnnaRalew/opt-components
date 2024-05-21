@@ -13,7 +13,7 @@ type TaskPropsType = {
 
 export const Tasks = ({title, tasks, students}: DataPropsType) => {
     return (
-        <>
+        <div>
             <h1>{title}</h1>
             {tasks.map(task => {
                 return (
@@ -27,6 +27,6 @@ export const Tasks = ({title, tasks, students}: DataPropsType) => {
             <ul>
                 {students.map(stName => <li>{stName}</li>)}
             </ul>
-        </>
+        </div>
     )
 }
