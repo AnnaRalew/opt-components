@@ -52,6 +52,9 @@ function App() {
                       removeTask={removeTask}
                       changeFilter={changeFilter}
                       addTask={addTask} />
+            <div>
+                <div>Many interesting information</div>
+            </div>
         </div>
     );
 }
