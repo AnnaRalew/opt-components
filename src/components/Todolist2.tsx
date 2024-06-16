@@ -17,7 +17,7 @@ type PropsType = {
     children?:React.ReactNode
 }
 
-export const Todolist: React.FC<PropsType> =({children, ...props}) =>{
+export const Todolist2: React.FC<PropsType> =({children, ...props}) =>{
     // let [title, setTitle] = useState("")
     const [listRef] = useAutoAnimate<HTMLUListElement>()
     const onchangeInputRef = useRef<HTMLInputElement>(null)
@@ -121,7 +121,7 @@ export const Todolist: React.FC<PropsType> =({children, ...props}) =>{
 //     children?:React.ReactNode
 // }
 //
-// export const Todolist:React.FC<PropsType>=({children, ...props}) =>{
+// export const Todolist2:React.FC<PropsType>=({children, ...props}) =>{
 //     const [listRef] = useAutoAnimate<HTMLUListElement>()
 //     let onChangeRef = useRef<HTMLInputElement>(null)
 //     //let [title, setTitle] = useState("")
